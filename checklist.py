@@ -44,6 +44,7 @@ def select(function_code):
     elif function_code == "R" or function_code == "r":
         item_index = user_input("Index Number?")
         item_index = int(item_index)
+        print(checklist[item_index])
         read(item_index)
 
     elif function_code == "P" or function_code == "p":
